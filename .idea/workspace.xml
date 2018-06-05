@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77584bfe-b93d-4d45-8732-7ff1159b5868" name="Default" comment="" />
+    <list default="true" id="77584bfe-b93d-4d45-8732-7ff1159b5868" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/assert_function/assert_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/assert_function/assert_example.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,12 +56,12 @@
     <SUITE FILE_PATH="coverage/Pyreview$anothermethod_create_class.coverage" NAME="anothermethod_create_class Coverage Results" MODIFIED="1527798938009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/class" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="assert_example.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assert_function/assert_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            <state relative-caret-position="66">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -72,6 +74,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -139,12 +144,13 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="2112" />
-    <option name="y" value="299" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="697" />
+    <option name="y" value="378" />
     <option name="width" value="1476" />
     <option name="height" value="1116" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -157,11 +163,6 @@
             <path>
               <item name="Pyreview" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pyreview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pyreview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pyreview" type="462c0819:PsiDirectoryNode" />
-              <item name="assert_function" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,17 +328,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="939" y="133" width="656" height="496" extended-state="1" />
-    <editor active="true" />
+    <frame x="310" y="168" width="656" height="496" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.500902" side_tool="true" weight="0.32883435" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.499098" visible="true" weight="0.64896756" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499098" weight="0.64896756" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49908593" visible="true" weight="0.52" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49908593" visible="true" weight="0.53833336" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -690,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assert_function/assert_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        <state relative-caret-position="66">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
