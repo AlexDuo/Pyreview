@@ -27,7 +27,7 @@ import socket
 client = socket.socket() #定义协议类型，括号内传入地址簇.不写的时候默认会传出 IPv4 和 TCP
 
 #因为connect方法只接受一个address 参数所以我们要以元组的形式传入参数
-client.connect(('localhost',6969))
+client.connect(('localhost',9999))
 
 # 注意在python3中socket只能发送bytes类型的数据
 client.send('传入中文测试需要encode成ASCII码'.encode("utf-8"))

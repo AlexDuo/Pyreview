@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77584bfe-b93d-4d45-8732-7ff1159b5868" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assert_function/assert_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/assert_function/assert_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP_example/ftp_client/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP_example/ftp_client/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP_example/ftp_client/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP_example/ftp_client/log/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP_example/ftp_server/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/FTP Server Example/FTP_server_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/FTP Server Example/socket_client_ssh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/FTP Server Example/socket_server_ssh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/SSH/socket_client_ssh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/SSH/socket_server_ssh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket_server/socket_server_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Socket/Socket_Multithreading/Multi_Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/Socket_Multithreading/Multi_Client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Socket/socket_Client_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/socket_Client_example.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,54 +27,88 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Pyreview$classexample.coverage" NAME="classexample Coverage Results" MODIFIED="1527723116578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
     <SUITE FILE_PATH="coverage/Pyreview$readandwrite.coverage" NAME="readandwrite Coverage Results" MODIFIED="1527458077229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Pyreview$meta_class.coverage" NAME="meta_class Coverage Results" MODIFIED="1527800119316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/class" />
-    <SUITE FILE_PATH="coverage/Pyreview$customize_exception.coverage" NAME="customize_exception Coverage Results" MODIFIED="1527871755539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exception_handeling" />
     <SUITE FILE_PATH="coverage/Pyreview$deconstructor_example.coverage" NAME="deconstructor_example Coverage Results" MODIFIED="1527732816703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
-    <SUITE FILE_PATH="coverage/Pyreview$standard_format.coverage" NAME="standard_format Coverage Results" MODIFIED="1527631838756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StandardFormat/bin" />
     <SUITE FILE_PATH="coverage/Pyreview$decorator.coverage" NAME="decorator高潮版 Coverage Results" MODIFIED="1527605426077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/第04周-Python3.5-零基础-高级-项目实战最新教程-共18章节/源码/代码" />
     <SUITE FILE_PATH="coverage/Pyreview$parallelexecute.coverage" NAME="parallelexecute Coverage Results" MODIFIED="1527626298596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Pyreview$random.coverage" NAME="random Coverage Results" MODIFIED="1527693543800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_module" />
     <SUITE FILE_PATH="coverage/Pyreview$class_method_example.coverage" NAME="class_method_example Coverage Results" MODIFIED="1527787694016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/class_method" />
     <SUITE FILE_PATH="coverage/Pyreview$xmlexercise.coverage" NAME="xmlexercise Coverage Results" MODIFIED="1527704227517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xml" />
-    <SUITE FILE_PATH="coverage/Pyreview$xmlexercises2.coverage" NAME="xmlexercises2 Coverage Results" MODIFIED="1527704746712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xml" />
     <SUITE FILE_PATH="coverage/Pyreview$inherit_example.coverage" NAME="inherit_example Coverage Results" MODIFIED="1527774267478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inherit" />
-    <SUITE FILE_PATH="coverage/Pyreview$time.coverage" NAME="time Coverage Results" MODIFIED="1527692591639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/time_module" />
-    <SUITE FILE_PATH="coverage/Pyreview$attribute_method_example_pritical.coverage" NAME="attribute_method_example_pritical Coverage Results" MODIFIED="1527792940924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/attribute_method" />
-    <SUITE FILE_PATH="coverage/Pyreview$doc_module_clss_example.coverage" NAME="doc_module_clss_example Coverage Results" MODIFIED="1527797830166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/special_class_function" />
-    <SUITE FILE_PATH="coverage/Pyreview$inherit_example2_school.coverage" NAME="inherit_example2_school Coverage Results" MODIFIED="1527779079051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inherit" />
     <SUITE FILE_PATH="coverage/Pyreview$Multi_server.coverage" NAME="Multi_server Coverage Results" MODIFIED="1528052349411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket/Socket_Multithreading" />
     <SUITE FILE_PATH="coverage/Pyreview$file_open.coverage" NAME="file_open Coverage Results" MODIFIED="1527431175575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pyreview$main.coverage" NAME="main Coverage Results" MODIFIED="1527688359583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeforeNextStep" />
     <SUITE FILE_PATH="coverage/Pyreview$highorder_function.coverage" NAME="highorder_function Coverage Results" MODIFIED="1527521942535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pyreview$private_function.coverage" NAME="private_function Coverage Results" MODIFIED="1527771611914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
-    <SUITE FILE_PATH="coverage/Pyreview$randomnumber.coverage" NAME="randomnumber Coverage Results" MODIFIED="1527694793959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_module" />
+    <SUITE FILE_PATH="coverage/Pyreview$sock_server_client.coverage" NAME="sock_server_client Coverage Results" MODIFIED="1528223667704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/第08周-Python3.5-零基础-高级-项目实战最新教程-共11章节/源码" />
+    <SUITE FILE_PATH="coverage/Pyreview$socket_client_ssh__1_.coverage" NAME="socket_client_ssh (1) Coverage Results" MODIFIED="1528232786672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket/FTP Server Example" />
     <SUITE FILE_PATH="coverage/Pyreview$reflection_example.coverage" NAME="reflection_example Coverage Results" MODIFIED="1527817251557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/reflection" />
     <SUITE FILE_PATH="coverage/Pyreview$assert_example.coverage" NAME="assert_example Coverage Results" MODIFIED="1528129364186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assert_function" />
     <SUITE FILE_PATH="coverage/Pyreview$tuples.coverage" NAME="tuples Coverage Results" MODIFIED="1527341950133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pyreview$socket_Server_example.coverage" NAME="socket_Server_example Coverage Results" MODIFIED="1528049458494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket" />
-    <SUITE FILE_PATH="coverage/Pyreview$Multi_Client.coverage" NAME="Multi_Client Coverage Results" MODIFIED="1528052351872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket/Socket_Multithreading" />
+    <SUITE FILE_PATH="coverage/Pyreview$Multi_Client.coverage" NAME="Multi_Client Coverage Results" MODIFIED="1528246232357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket/Socket_Multithreading" />
     <SUITE FILE_PATH="coverage/Pyreview$recursive.coverage" NAME="recursive Coverage Results" MODIFIED="1527521403208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pyreview$Modules.coverage" NAME="Modules Coverage Results" MODIFIED="1527641161289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeforeNextStep" />
-    <SUITE FILE_PATH="coverage/Pyreview$atm__1_.coverage" NAME="atm (1) Coverage Results" MODIFIED="1527638900938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NextStep/Atm/bin" />
-    <SUITE FILE_PATH="coverage/Pyreview$exception_example.coverage" NAME="exception_example Coverage Results" MODIFIED="1527819127429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exception_handeling" />
+    <SUITE FILE_PATH="coverage/Pyreview$exception_example.coverage" NAME="exception_example Coverage Results" MODIFIED="1528223954427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exception_handeling" />
     <SUITE FILE_PATH="coverage/Pyreview$property_method_example.coverage" NAME="property_method_example Coverage Results" MODIFIED="1527788284299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/property_method" />
-    <SUITE FILE_PATH="coverage/Pyreview$doc_method.coverage" NAME="doc_method Coverage Results" MODIFIED="1527794145637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/special_class_function" />
+    <SUITE FILE_PATH="coverage/Pyreview$socket_server_ssh.coverage" NAME="socket_server_ssh Coverage Results" MODIFIED="1528229568563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket/SSH" />
     <SUITE FILE_PATH="coverage/Pyreview$attribute_method_example.coverage" NAME="attribute_method_example Coverage Results" MODIFIED="1527792370082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/attribute_method" />
     <SUITE FILE_PATH="coverage/Pyreview$local_variables.coverage" NAME="local_variables Coverage Results" MODIFIED="1527517645319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pyreview$listgeneator.coverage" NAME="listgeneator Coverage Results" MODIFIED="1527624031577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pyreview$socket_Client_example.coverage" NAME="socket_Client_example Coverage Results" MODIFIED="1528245628094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket" />
+    <SUITE FILE_PATH="coverage/Pyreview$meta_class.coverage" NAME="meta_class Coverage Results" MODIFIED="1527800119316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/class" />
+    <SUITE FILE_PATH="coverage/Pyreview$customize_exception.coverage" NAME="customize_exception Coverage Results" MODIFIED="1527871755539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exception_handeling" />
+    <SUITE FILE_PATH="coverage/Pyreview$socket_client_ssh.coverage" NAME="socket_client_ssh Coverage Results" MODIFIED="1528229571949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket/SSH" />
+    <SUITE FILE_PATH="coverage/Pyreview$standard_format.coverage" NAME="standard_format Coverage Results" MODIFIED="1527631838756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StandardFormat/bin" />
+    <SUITE FILE_PATH="coverage/Pyreview$random.coverage" NAME="random Coverage Results" MODIFIED="1527693543800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_module" />
+    <SUITE FILE_PATH="coverage/Pyreview$xmlexercises2.coverage" NAME="xmlexercises2 Coverage Results" MODIFIED="1527704746712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xml" />
+    <SUITE FILE_PATH="coverage/Pyreview$time.coverage" NAME="time Coverage Results" MODIFIED="1527692591639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/time_module" />
+    <SUITE FILE_PATH="coverage/Pyreview$attribute_method_example_pritical.coverage" NAME="attribute_method_example_pritical Coverage Results" MODIFIED="1527792940924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/attribute_method" />
+    <SUITE FILE_PATH="coverage/Pyreview$doc_module_clss_example.coverage" NAME="doc_module_clss_example Coverage Results" MODIFIED="1527797830166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/special_class_function" />
+    <SUITE FILE_PATH="coverage/Pyreview$inherit_example2_school.coverage" NAME="inherit_example2_school Coverage Results" MODIFIED="1527779079051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inherit" />
+    <SUITE FILE_PATH="coverage/Pyreview$randomnumber.coverage" NAME="randomnumber Coverage Results" MODIFIED="1527694793959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_module" />
+    <SUITE FILE_PATH="coverage/Pyreview$sock_server_ssh.coverage" NAME="sock_server_ssh Coverage Results" MODIFIED="1528223665402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/第08周-Python3.5-零基础-高级-项目实战最新教程-共11章节/源码" />
+    <SUITE FILE_PATH="coverage/Pyreview$socket_server_ssh__1_.coverage" NAME="socket_server_ssh (1) Coverage Results" MODIFIED="1528232784697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket/FTP Server Example" />
+    <SUITE FILE_PATH="coverage/Pyreview$atm__1_.coverage" NAME="atm (1) Coverage Results" MODIFIED="1527638900938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NextStep/Atm/bin" />
+    <SUITE FILE_PATH="coverage/Pyreview$doc_method.coverage" NAME="doc_method Coverage Results" MODIFIED="1527794145637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/special_class_function" />
     <SUITE FILE_PATH="coverage/Pyreview$createxml.coverage" NAME="createxml Coverage Results" MODIFIED="1527715036708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xml" />
     <SUITE FILE_PATH="coverage/Pyreview$atm.coverage" NAME="atm Coverage Results" MODIFIED="1527638710251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NextStep/Atm" />
+    <SUITE FILE_PATH="coverage/Pyreview$socket_server_example.coverage" NAME="socket_server_example Coverage Results" MODIFIED="1528246230004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket_server" />
     <SUITE FILE_PATH="coverage/Pyreview$static_method_example.coverage" NAME="static_method_example Coverage Results" MODIFIED="1527787173347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/static_method" />
-    <SUITE FILE_PATH="coverage/Pyreview$listgeneator.coverage" NAME="listgeneator Coverage Results" MODIFIED="1527624031577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Pyreview$socket_Client_example.coverage" NAME="socket_Client_example Coverage Results" MODIFIED="1528049461822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket" />
     <SUITE FILE_PATH="coverage/Pyreview$anothermethod_create_class.coverage" NAME="anothermethod_create_class Coverage Results" MODIFIED="1527798938009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/class" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="assert_example.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assert_function/assert_example.py">
+      <file leaf-file-name="socket_server_example.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Socket_server/socket_server_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            <state relative-caret-position="57">
+              <caret line="39" column="90" lean-forward="true" selection-start-line="39" selection-start-column="90" selection-end-line="39" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Multi_Client.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Socket/Socket_Multithreading/Multi_Client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Multi_server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Socket/Socket_Multithreading/Multi_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="socket_Client_example.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Socket/socket_Client_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -81,13 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/StandardFormat/bin/standard_format.py" />
-        <option value="$PROJECT_DIR$/NextStep/README" />
-        <option value="$PROJECT_DIR$/NextStep/Atm/atm.py" />
-        <option value="$PROJECT_DIR$/NextStep/Atm/bin/atm.py" />
-        <option value="$PROJECT_DIR$/NextStep/Atm/core/main.py" />
-        <option value="$PROJECT_DIR$/NextStep/Atm/core/logwriter.py" />
-        <option value="$PROJECT_DIR$/BeforeNextStep/models.py" />
         <option value="$PROJECT_DIR$/BeforeNextStep/Module_Duo.py" />
         <option value="$PROJECT_DIR$/BeforeNextStep/Modules.py" />
         <option value="$PROJECT_DIR$/BeforeNextStep/package_test/in_package_test.py" />
@@ -127,11 +167,18 @@
         <option value="$PROJECT_DIR$/exception_handeling/customize_exception.py" />
         <option value="$PROJECT_DIR$/Socket/socket_example.py" />
         <option value="$PROJECT_DIR$/Socket/socket_Server_example.py" />
-        <option value="$PROJECT_DIR$/Socket/socket_Client_example.py" />
-        <option value="$PROJECT_DIR$/Socket/Socket_Multithreading/Multi_Client.py" />
         <option value="$PROJECT_DIR$/Socket/Socket_Multithreading/Multi_server.py" />
         <option value="$PROJECT_DIR$/importlib/importlib_example.py" />
         <option value="$PROJECT_DIR$/assert_function/assert_example.py" />
+        <option value="$PROJECT_DIR$/Socket/SSH/socket_server_ssh.py" />
+        <option value="$PROJECT_DIR$/Socket/SSH/socket_client_ssh.py" />
+        <option value="$PROJECT_DIR$/Socket/FTP_server_example.py" />
+        <option value="$PROJECT_DIR$/Socket/FTP Server Example/FTP_server_example.py" />
+        <option value="$PROJECT_DIR$/Socket/FTP Server Example/socket_server_ssh.py" />
+        <option value="$PROJECT_DIR$/Socket/FTP Server Example/socket_client_ssh.py" />
+        <option value="$PROJECT_DIR$/Socket/socket_Client_example.py" />
+        <option value="$PROJECT_DIR$/Socket/Socket_Multithreading/Multi_Client.py" />
+        <option value="$PROJECT_DIR$/Socket_server/socket_server_example.py" />
       </list>
     </option>
   </component>
@@ -145,8 +192,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="697" />
-    <option name="y" value="378" />
+    <option name="x" value="1833" />
+    <option name="y" value="180" />
     <option name="width" value="1476" />
     <option name="height" value="1116" />
   </component>
@@ -156,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,10 +210,35 @@
               <item name="Pyreview" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pyreview" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Pyreview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pyreview" type="462c0819:PsiDirectoryNode" />
+              <item name="FTP_example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pyreview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pyreview" type="462c0819:PsiDirectoryNode" />
+              <item name="FTP_example" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp_client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pyreview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pyreview" type="462c0819:PsiDirectoryNode" />
+              <item name="FTP_example" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pyreview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pyreview" type="462c0819:PsiDirectoryNode" />
+              <item name="FTP_example" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp_server" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,16 +248,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Real\PycharmProjects\Pyreview\Socket\FTP Server Example" />
+      <recent name="C:\Users\Real\PycharmProjects\Pyreview\OOP" />
+      <recent name="C:\Users\Real\PycharmProjects\Pyreview" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Real\PycharmProjects\Pyreview\Socket\FTP Server Example" />
       <recent name="C:\Users\Real\PycharmProjects\Pyreview\Socket" />
       <recent name="C:\Users\Real\PycharmProjects\Pyreview\OOP\class" />
       <recent name="C:\Users\Real\PycharmProjects\Pyreview\Modules" />
       <recent name="C:\Users\Real\PycharmProjects\Pyreview\OOP" />
-      <recent name="C:\Users\Real\PycharmProjects\Pyreview\NextStep\Atm\bin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Real\PycharmProjects\Pyreview\OOP" />
-      <recent name="C:\Users\Real\PycharmProjects\Pyreview" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -201,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.assert_example">
+  <component name="RunManager" selected="Python.Multi_Client">
     <configuration name="Multi_Client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pyreview" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,44 +288,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Socket/Socket_Multithreading/Multi_Client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Multi_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Pyreview" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Socket/Socket_Multithreading" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Socket/Socket_Multithreading/Multi_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="assert_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Pyreview" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assert_function" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assert_function/assert_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,7 +312,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="socket_Server_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="socket_client_ssh (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pyreview" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,31 +320,69 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Socket" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Socket/FTP Server Example" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Socket/socket_Server_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Socket/FTP Server Example/socket_client_ssh.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="socket_server_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pyreview" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Socket_server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Socket_server/socket_server_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="socket_server_ssh (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pyreview" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Socket/FTP Server Example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Socket/FTP Server Example/socket_server_ssh.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.socket_Server_example" />
-      <item itemvalue="Python.socket_Client_example" />
-      <item itemvalue="Python.Multi_server" />
+      <item itemvalue="Python.socket_server_ssh (1)" />
+      <item itemvalue="Python.socket_client_ssh (1)" />
+      <item itemvalue="Python.socket_server_example" />
       <item itemvalue="Python.Multi_Client" />
-      <item itemvalue="Python.assert_example" />
+      <item itemvalue="Python.socket_Client_example" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.assert_example" />
         <item itemvalue="Python.Multi_Client" />
-        <item itemvalue="Python.Multi_server" />
+        <item itemvalue="Python.socket_server_example" />
         <item itemvalue="Python.socket_Client_example" />
-        <item itemvalue="Python.socket_Server_example" />
+        <item itemvalue="Python.socket_client_ssh (1)" />
+        <item itemvalue="Python.socket_server_ssh (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -328,16 +400,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="310" y="168" width="656" height="496" extended-state="0" />
+    <frame x="815" y="80" width="656" height="496" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.500902" side_tool="true" weight="0.32883435" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499098" weight="0.64896756" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32883435" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499098" weight="0.41297936" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49908593" visible="true" weight="0.53833336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49908593" visible="true" weight="0.5833333" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -352,6 +424,29 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32883435" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49908593" visible="true" weight="0.21046302" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" sideWeight="0.5009141" side_tool="true" weight="0.13770294" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.499098" visible="true" weight="0.2564417" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32883435" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32883435" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398773" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.500902" side_tool="true" weight="0.32883435" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -370,59 +465,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Modules/time_module/time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/random_module/randomnumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/os_module/ostest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/shutil_module/shutiltest.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/output.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/xmlexercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/tree.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/newtree.xml" />
     <entry file="file://$PROJECT_DIR$/xml/xmlexercises2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -623,38 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exception_handeling/exception_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exception_handeling/customize_exception.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Socket/socket_Server_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Socket/Socket_Multithreading/Multi_Client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Socket/Socket_Multithreading/Multi_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -681,10 +695,31 @@
     <entry file="file://$PROJECT_DIR$/components/3level.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Socket/socket_Client_example.py">
+    <entry file="file://$USER_HOME$/Desktop/第08周-Python3.5-零基础-高级-项目实战最新教程-共11章节/源码/sock_server_ssh.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/第08周-Python3.5-零基础-高级-项目实战最新教程-共11章节/源码/sock_server_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception_handeling/exception_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception_handeling/customize_exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -692,6 +727,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Socket/SSH/socket_server_ssh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Socket/SSH/socket_client_ssh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Socket/FTP Server Example/FTP_server_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Socket/FTP Server Example/socket_client_ssh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Socket/FTP Server Example/socket_server_ssh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+          <folding>
+            <element signature="e#122#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2178" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Socket/Socket_Multithreading/Multi_Client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Socket/Socket_Multithreading/Multi_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Socket/socket_Client_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Socket_server/socket_server_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="39" column="90" lean-forward="true" selection-start-line="39" selection-start-column="90" selection-end-line="39" selection-end-column="90" />
         </state>
       </provider>
     </entry>
