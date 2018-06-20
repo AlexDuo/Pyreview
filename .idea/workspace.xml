@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77584bfe-b93d-4d45-8732-7ff1159b5868" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Thread/multithread_timeconsuming_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/multithreading.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/multithreading_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/thread_and_process_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paramiko_example/ssh_command_execute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paramiko_example/ssh_file_send.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Pyreview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pyreview.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/Event_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/Rlock_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/Thread_Locker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/Thread_semaphore.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/multithread_timeconsuming_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/multithread_timeconsuming_calculator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,11 +49,13 @@
     <SUITE FILE_PATH="coverage/Pyreview$multithreading.coverage" NAME="multithreading Coverage Results" MODIFIED="1528313122871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Thread" />
     <SUITE FILE_PATH="coverage/Pyreview$attribute_method_example.coverage" NAME="attribute_method_example Coverage Results" MODIFIED="1528294114707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/attribute_method" />
     <SUITE FILE_PATH="coverage/Pyreview$local_variables.coverage" NAME="local_variables Coverage Results" MODIFIED="1527517645319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pyreview$Thread_Locker.coverage" NAME="Thread_Locker Coverage Results" MODIFIED="1529515567087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Thread" />
     <SUITE FILE_PATH="coverage/Pyreview$listgeneator.coverage" NAME="listgeneator Coverage Results" MODIFIED="1527624031577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pyreview$socket_Client_example.coverage" NAME="socket_Client_example Coverage Results" MODIFIED="1528245628094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket" />
     <SUITE FILE_PATH="coverage/Pyreview$meta_class.coverage" NAME="meta_class Coverage Results" MODIFIED="1527800119316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/class" />
     <SUITE FILE_PATH="coverage/Pyreview$customize_exception.coverage" NAME="customize_exception Coverage Results" MODIFIED="1527871755539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exception_handeling" />
     <SUITE FILE_PATH="coverage/Pyreview$socket_client_ssh.coverage" NAME="socket_client_ssh Coverage Results" MODIFIED="1528229571949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket/SSH" />
+    <SUITE FILE_PATH="coverage/Pyreview$Thread_semaphore.coverage" NAME="Thread_semaphore Coverage Results" MODIFIED="1529518765518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Thread" />
     <SUITE FILE_PATH="coverage/Pyreview$standard_format.coverage" NAME="standard_format Coverage Results" MODIFIED="1527631838756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StandardFormat/bin" />
     <SUITE FILE_PATH="coverage/Pyreview$random.coverage" NAME="random Coverage Results" MODIFIED="1527693543800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_module" />
     <SUITE FILE_PATH="coverage/Pyreview$xmlexercises2.coverage" NAME="xmlexercises2 Coverage Results" MODIFIED="1527704746712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xml" />
@@ -69,20 +68,25 @@
     <SUITE FILE_PATH="coverage/Pyreview$socket_server_ssh__1_.coverage" NAME="socket_server_ssh (1) Coverage Results" MODIFIED="1528232784697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket/FTP Server Example" />
     <SUITE FILE_PATH="coverage/Pyreview$atm__1_.coverage" NAME="atm (1) Coverage Results" MODIFIED="1527638900938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NextStep/Atm/bin" />
     <SUITE FILE_PATH="coverage/Pyreview$doc_method.coverage" NAME="doc_method Coverage Results" MODIFIED="1527794145637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/special_class_function" />
+    <SUITE FILE_PATH="coverage/Pyreview$Rlock_example.coverage" NAME="Rlock_example Coverage Results" MODIFIED="1529517997096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Thread" />
     <SUITE FILE_PATH="coverage/Pyreview$createxml.coverage" NAME="createxml Coverage Results" MODIFIED="1527715036708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xml" />
     <SUITE FILE_PATH="coverage/Pyreview$atm.coverage" NAME="atm Coverage Results" MODIFIED="1527638710251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NextStep/Atm" />
     <SUITE FILE_PATH="coverage/Pyreview$socket_server_example.coverage" NAME="socket_server_example Coverage Results" MODIFIED="1528246230004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Socket_server" />
     <SUITE FILE_PATH="coverage/Pyreview$static_method_example.coverage" NAME="static_method_example Coverage Results" MODIFIED="1527787173347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/static_method" />
     <SUITE FILE_PATH="coverage/Pyreview$multithreading_class.coverage" NAME="multithreading_class Coverage Results" MODIFIED="1528313429076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Thread" />
+    <SUITE FILE_PATH="coverage/Pyreview$Event_example.coverage" NAME="Event_example Coverage Results" MODIFIED="1529521892971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Thread" />
     <SUITE FILE_PATH="coverage/Pyreview$anothermethod_create_class.coverage" NAME="anothermethod_create_class Coverage Results" MODIFIED="1527798938009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/class" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="createxml.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xml/createxml.py">
+      <file leaf-file-name="Event_example.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Thread/Event_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="426">
+              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+              <folding>
+                <element signature="e#67#83#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,11 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/time_module/time.py" />
-        <option value="$PROJECT_DIR$/random_module/randomnumber.py" />
-        <option value="$PROJECT_DIR$/os_module/ostest.py" />
-        <option value="$PROJECT_DIR$/shutil_module/shutiltest.py" />
-        <option value="$PROJECT_DIR$/xml/xmlexercise.py" />
         <option value="$PROJECT_DIR$/xml/test.xml" />
         <option value="$PROJECT_DIR$/xml/xmlexercises2.py" />
         <option value="$PROJECT_DIR$/xml/tree.xml" />
@@ -153,6 +152,11 @@
         <option value="$PROJECT_DIR$/Thread/multithreading.py" />
         <option value="$PROJECT_DIR$/Thread/multithreading_class.py" />
         <option value="$PROJECT_DIR$/Thread/multithread_timeconsuming_calculator.py" />
+        <option value="$PROJECT_DIR$/Thread/Thread_Locker.py" />
+        <option value="$PROJECT_DIR$/Thread/Rlock_example.py" />
+        <option value="$PROJECT_DIR$/Thread/Thread_semaphore.py" />
+        <option value="$PROJECT_DIR$/Thread/Event.py" />
+        <option value="$PROJECT_DIR$/Thread/Event_example.py" />
       </list>
     </option>
   </component>
@@ -166,8 +170,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="459" />
-    <option name="y" value="702" />
+    <option name="x" value="-14" />
+    <option name="y" value="-14" />
     <option name="width" value="1476" />
     <option name="height" value="1116" />
   </component>
@@ -177,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,15 +189,19 @@
               <item name="Pyreview" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pyreview" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Pyreview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pyreview" type="462c0819:PsiDirectoryNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Real/PycharmProjects/Pyreview/Thread/thread_and_process_example.py" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Real/PycharmProjects/Pyreview/Thread/multithread_timeconsuming_calculator.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/第07周-Python3.5-零基础-高级-项目实战最新教程-共14章节/第七周-源码/源码/属性方法例子.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -223,8 +232,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.multithread_timeconsuming_calculator">
-    <configuration name="Multi_Client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Event_example">
+    <configuration name="Event_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pyreview" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,18 +241,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Socket/Socket_Multithreading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Thread" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Socket/Socket_Multithreading/Multi_Client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread/Event_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="attribute_method_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Rlock_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pyreview" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,12 +260,50 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/attribute_method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Thread" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/attribute_method/attribute_method_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread/Rlock_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Thread_Locker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pyreview" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Thread" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread/Thread_Locker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Thread_semaphore" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pyreview" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Thread" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread/Thread_semaphore.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,58 +328,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="multithreading" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Pyreview" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Thread" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread/multithreading.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="multithreading_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Pyreview" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Thread" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread/multithreading_class.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.Multi_Client" />
-      <item itemvalue="Python.attribute_method_example" />
-      <item itemvalue="Python.multithreading" />
-      <item itemvalue="Python.multithreading_class" />
       <item itemvalue="Python.multithread_timeconsuming_calculator" />
+      <item itemvalue="Python.Thread_Locker" />
+      <item itemvalue="Python.Rlock_example" />
+      <item itemvalue="Python.Thread_semaphore" />
+      <item itemvalue="Python.Event_example" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Event_example" />
+        <item itemvalue="Python.Thread_semaphore" />
+        <item itemvalue="Python.Rlock_example" />
+        <item itemvalue="Python.Thread_Locker" />
         <item itemvalue="Python.multithread_timeconsuming_calculator" />
-        <item itemvalue="Python.multithreading_class" />
-        <item itemvalue="Python.multithreading" />
-        <item itemvalue="Python.attribute_method_example" />
-        <item itemvalue="Python.Multi_Client" />
       </list>
     </recent_temporary>
   </component>
@@ -351,15 +360,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1719" height="972" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.500902" side_tool="true" weight="0.32883435" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32883435" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32883435" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499098" weight="0.2588957" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.499098" visible="true" weight="0.31042945" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49908593" visible="true" weight="0.16656645" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49908593" visible="true" weight="0.19001804" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -415,34 +425,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OOP/inherit/polymorphism.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/static_method/static_method_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BeforeNextStep/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BeforeNextStep/Module_Duo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BeforeNextStep/Modules.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -678,6 +660,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xml/createxml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Thread/thread_and_process_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -687,36 +676,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Thread/multithreading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="242">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Thread/multithreading_class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Thread/multithread_timeconsuming_calculator.py">
+    <entry file="file://$PROJECT_DIR$/Thread/Rlock_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="440">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thread/Thread_Locker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="e#71#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thread/Thread_semaphore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="e#148#164#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://E:/Python36-32/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="863" selection-start-line="863" selection-end-line="863" />
+        <state relative-caret-position="581">
+          <caret line="532" column="8" selection-start-line="532" selection-start-column="8" selection-end-line="532" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/createxml.py">
+    <entry file="file://$PROJECT_DIR$/Thread/multithread_timeconsuming_calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="205">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#67#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thread/Event_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding>
+            <element signature="e#67#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
